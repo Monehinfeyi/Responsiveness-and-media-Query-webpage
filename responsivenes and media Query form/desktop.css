@@ -1,0 +1,124 @@
+
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: Poppins;
+}
+
+body,
+html {
+  background-color: hsl(0, 100%, 74%);
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  background-image: url("bg-intro-desktop.png");
+  position: absolute;
+ }
+
+#text-cont {
+  width: 28em;
+  height: 3em;
+  background-color: hsl(251, 60%, 21%);
+  border-radius: 10px;
+  margin-top: 110px;
+  margin-left: 55%;
+}
+
+#text-cont p {
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  display: inline-block;
+  margin-top: 15px;
+  margin-left: 85px;
+
+}
+
+span {
+  font-size: 16px;
+  font-weight: 600;
+  color: hsl(246, 25%, 77%);
+
+}
+
+.container {
+  width: 28em;
+  height: 23em;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-left: 55%;
+}
+
+form {
+  margin: 0 auto;
+  width: 400px;
+  height: auto;
+  padding: 1em;
+  border: 2px;
+  position: relative;
+  margin-top: none;
+  margin-left: 6px;
+}
+
+form ul {
+  list-style: none;
+  padding: 2px;
+  margin: 10px;
+  margin-left: 7px;
+  display: grid;
+}
+
+input {
+  width: 370px;
+  height: 30px;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+input:invalid:required {
+  background-image: url("error.png");
+  
+}
+
+button {
+  width: 374px;
+  height: 30px;
+  background: hsl(154, 59%, 51%);
+  border-color: green;
+  border-radius: 5px;
+  margin-left: 10px;
+  text-decoration: none;
+  color: white;
+
+}
+
+#txt {
+  font-size: 12px;
+  text-align: center;
+  color: hsl(246, 25%, 77%);
+}
+
+#txt a {
+  text-decoration: none;
+  color: hsl(0, 100%, 74%);
+}
+h1 {
+  font-size: 50px;
+  font-weight: 700;
+  color: white;
+  position: absolute;
+  margin-top: 17%;
+  margin-left: 120px;
+}
+#info {
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  position: absolute;
+  margin-top: 28%;
+  margin-left: 120px;
+}
